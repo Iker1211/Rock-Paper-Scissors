@@ -4,28 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
 </head>
 <body>
-    <section id="game">
-        <button id="btn-rock">Rock!</button>
-        <button id="btn-paper">Paper!</button>
-        <button id="btn-scissors">Scissors!</button>
-    </section>
-    <section id="running-score">
-        <h2>Score</h2>
-        <div id="score">
-            <div id="human-score">
-                <h3>Human</h3>
+    <div class="dragon-background">
+        <img src="Chinese dragon 飞龙在天 金左.gif" alt="Decorative Chinese dragon" />
+    </div>
+    <div class="container min-vh-100 d-flex flex-column justify-content-center align-items-center">
+        <h1 class="mb-4 game-title">Rock, Paper Scissors</h1>
+        <section id="game" class="game-buttons mb-4">
+            <button id="btn-rock" class="btn btn-primary game-btn">rock</button>
+            <button id="btn-paper" class="btn btn-primary game-btn">paper</button>
+            <button id="btn-scissors" class="btn btn-primary game-btn">scissors</button>
+        </section>
+        <section id="running-score" class="score-section mb-4">
+            <h2>Score</h2>
+            <div id="score" class="score-container">
+                <div class="score-box">
+                    <h5>Human</h5>
+                    <p id="human-score" class="score">
+                        0
+                    </p>
+                </div>
+                <div class="score-box">
+                    <h5>Computer</h5>
+                    <p id="computer-score" class="score">
+                        0
+                    </p>
+                </div>
             </div>
-            <div id="computer-score">
-                <h3>Computer</h3>
+        </section> 
+        <section id="results" class="results-section w-100">
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text text-center">Press the buttons to play!</p>
+                </div>
             </div>
+        </section>
+    </div>
+    <footer class="footer-42">
+        <div class="container">
+          <a href="https://www.iker42.blog/" rel="noreferrer" target="_blank"> <i>☀️The 42 Diseño Web </i></a>
         </div>
-    </section> 
-    <section id="results">
-
-    </section>
+      </footer>
 </body>
 </html>
