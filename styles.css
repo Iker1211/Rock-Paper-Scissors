@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#running-score {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#score {
+    display: flex;
+    align-items: space-between;
+    gap: 2rem;
+}
