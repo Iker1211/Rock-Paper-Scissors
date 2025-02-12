@@ -1,4 +1,4 @@
-# The Odin Project
+# Rock-Paper-Scissors
 
 As part of The Odin Project curriculum (TOP), I made a simple Rock-Paper-Scissors algorithm.
 
