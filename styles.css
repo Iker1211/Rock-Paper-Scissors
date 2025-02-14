@@ -139,12 +139,20 @@
   }
 
   .footer-42 {
+    position: relative;
     background-color: #1a2a3b;
     color: var(--white);
     text-align: center;
     font-size: small;
     width: 100%;
     padding: 0;
+  }
+
+  .credit {
+    position: absolute;
+    bottom: 8px;
+    right: 84%;
+    font-size: 0.8rem;
   }
 
     .footer-42 a {
